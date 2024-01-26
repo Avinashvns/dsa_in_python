@@ -1,14 +1,13 @@
-# Sorting in string
+# Sorting in string with Key (lenth of String)
 
-a = ["cat", "dog", "ball", "apple"]
+a = ["cat", "dog", "ball", "apple", "bee", "a"]
 
-# sortedarray = a.sort()
-# sortedarray = sorted(a)
+# Assecending order
+a.sort(key=len)
+print("key ", a)
 
+# Desecending Order
+a.sort(key=len, reverse=True)
+print(a)
 
-sortedarray = sorted(a)
-print("Original Array", a)
-print("Sorted Array", sortedarray)
-
-reversesortedarray = sorted(a, reverse=True)
-print("Reverse Sorted", reversesortedarray)
+print(len("name"))
