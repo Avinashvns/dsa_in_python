@@ -1,6 +1,6 @@
-# Sorting in number
+# Sorting in string
 
-a = [16, 0, 1, 9, 70, 80]
+a = ["cat", "dog", "ball", "apple"]
 print(a)
 
 a.sort()
