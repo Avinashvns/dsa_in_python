@@ -1,10 +1,14 @@
 # Sorting in string
 
 a = ["cat", "dog", "ball", "apple"]
-print(a)
 
-a.sort()
-print("Sorting assending : ", a)
+# sortedarray = a.sort()
+# sortedarray = sorted(a)
 
-a.sort(reverse=True)
-print("Sorting decending : ", a)
+
+sortedarray = sorted(a)
+print("Original Array", a)
+print("Sorted Array", sortedarray)
+
+reversesortedarray = sorted(a, reverse=True)
+print("Reverse Sorted", reversesortedarray)
