@@ -1,4 +1,6 @@
-a = [16, 0, 1, 9, 70]
+# Sorting in number
+
+a = [16, 0, 1, 9, 70, 80]
 print(a)
 
 a.sort()
